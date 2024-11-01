@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="../../HTML&CSS/common/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="items">
+      <div class="title">
+        로켓배송 상품 <span>무료배송 · 19,800원 이상 주문 가능</span>
+      </div>
+      <div class="inner">
+        <i class="fa-solid fa-square-check"></i>
+        <img src="img/item2.jpg" alt="" />
+        <div class="innertitle">
+          <h1>Apple 정품 아이폰 16 Pro 자급제, 화이트 티타늄, 256GB</h1>
+          <p>내일(토) 11/2 도착 보장(서울경기 기준)</p>
+          <p class="price">1,700,000원 <img src="img/logo1.png" alt="" /></p>
+          <div class="point">최대 50,000원 적립</div>
+          <div class="count">
+            <button onclick="minus()" class="minusbutton">-</button>
+            <span class="counter">0</span>
+            <button onclick="plus()" class="plusbutton">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="inner">
+        <i class="fa-solid fa-square-check"></i>
+        <img src="img/item1.jpg" alt="" />
+        <div class="innertitle">
+          <h1>
+            Apple 2024 에어팟 맥스 노이즈 캔슬링 블루투스 헤드폰, 스타라이트
+          </h1>
+          <p>내일(토) 11/2 도착 보장(서울경기 기준)</p>
+          <p class="price">745,930원 <img src="img/logo1.png" alt="" /></p>
+          <div class="point">최대 37,296원 적립</div>
+          <div class="count">
+            <button onclick="minus1()" class="minusbutton">-</button>
+            <span class="counter1">0</span>
+            <button onclick="plus1()" class="plusbutton">+</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cart">
+      <h1>주문 예상 금액</h1>
+      <div>총 상품 가격<span class="value">0</span>원</div>
+      <div>
+        <p>총 할인<span class="sale">-0</span>원</p>
+      </div>
+      <div>
+        <p>총 배송비<span class="delivery">+0</span>원</p>
+      </div>
+      <div class="valuecount">0</div>
+      <button class="purchass">구매하기</button>
+    </section>
+  </body>
+</html>
