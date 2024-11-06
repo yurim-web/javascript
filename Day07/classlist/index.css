@@ -1,0 +1,27 @@
+.box {
+  display: flex;
+  gap: 10px;
+}
+
+.orange {
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+button {
+  padding: 10px 10px 7px;
+  border-radius: 5px;
+}
+.bold {
+  font-weight: bold;
+}
+.bolder {
+  font-weight: bolder;
+}
+
+.green {
+  background-color: green;
+}
+.pink {
+  background-color: pink;
+}

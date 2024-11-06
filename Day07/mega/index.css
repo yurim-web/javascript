@@ -1,0 +1,18 @@
+.box {
+  display: flex;
+  gap: 10px;
+}
+
+.orange {
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+.bold {
+  font-weight: bold;
+}
