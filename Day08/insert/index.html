@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- 버거 메뉴 : [새우] [불고기] [치킨] [치즈] [떡불] -->
+    <!-- 사이드 메뉴 : [감자튀김] [치즈스틱] [코우슬로] [콘샐러드]  -->
+    <!-- 음료 메뉴 : [콜라] [제로콜라] [스프라이트] [오렌지주스]  -->
+    <!-- 선택된 버거 :[] -->
+    <!-- 선택된 사이드 :[] -->
+
+    <!-- 선택된 음료 :[] -->
+
+    <!-- 구매하기 : ~~버거 ~~사이드 ~~음료가 구매되었습니다 -->
+    <section class="buger">
+      <h1>🍔버거메뉴🍔</h1>
+      <button class="menu1" id="bugermenu1">새우</button>
+      <button class="menu1" id="bugermenu2">불고기</button>
+      <button class="menu1" id="bugermenu3">치킨</button>
+      <button class="menu1" id="bugermenu4">치즈</button>
+      <button class="menu1" id="bugermenu5">떡불</button>
+      <div class="bugermenu">
+        <h4>선택된 버거 -></h4>
+        <span id="chosebuger"></span>
+      </div>
+    </section>
+    <section class="side">
+      <h1>🍟사이드메뉴🍟</h1>
+      <button class="menu1" id="sidemenu1">감자튀김</button>
+      <button class="menu1" id="sidemenu2">치즈스틱</button>
+      <button class="menu1" id="sidemenu3">코우슬로</button>
+      <button class="menu1" id="sidemenu4">콘샐러드</button>
+      <div class="drinkmenu">
+        <h4>선택된 사이드메뉴 -></h4>
+        <span id="choseside"></span>
+      </div>
+    </section>
+    <section class="drink">
+      <h1>🥤음료메뉴🥤</h1>
+      <button class="menu1" id="drinkmenu1">콜라</button>
+      <button class="menu1" id="drinkmenu2">제로콜라</button>
+      <button class="menu1" id="drinkmenu3">스프라이트</button>
+      <button class="menu1" id="drinkmenu4">오렌지주스</button>
+      <div class="bugermenu">
+        <h4>선택된 음료 -></h4>
+        <span id="chosedrink"></span>
+      </div>
+    </section>
+    <button class="button-3" id="purchase">구매하기</button>
+  </body>
+</html>

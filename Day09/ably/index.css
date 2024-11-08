@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.box > img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.sale {
+  color: red;
+  margin-right: 5px;
+}
+.title {
+  font-size: 20px;
+}
+
+.people {
+  font-size: 13px;
+}

@@ -1,0 +1,42 @@
+/* section {
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+}
+article {
+  display: flex;
+  border: 1px solid grey;
+  padding: 5px 5px;
+}
+
+.img {
+  background-color: aquamarine;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+.title {
+  margin-left: 20px;
+}
+
+.pricebox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.pricebox > button {
+  background-color: #ebeeff;
+  color: #7077bd;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 5px 5px;
+} */
+
+.section {
+  flex-direction: column;
+}

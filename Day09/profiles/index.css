@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name {
+  text-align: left;
+  margin-left: 20px;
+}
+.name > strong {
+  color: #262e6c;
+  font-size: 20px;
+}
+.card > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 999px;
+  border: 1px solid black;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
